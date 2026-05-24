@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 1 - Quadrado e Cubo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main class="container">
+        <h1>Calculadora de Quadrado e Cubo</h1>
+        <p class="descricao">
+            Digite um número para calcular automaticamente o quadrado e o cubo.
+        </p>
+
+        <form id="numeroForm">
+            <label for="numero">Digite um número:</label>
+            <input type="number" id="numero" name="numero" step="any" required>
+
+            <button type="submit">Calcular</button>
+        </form>
+
+        <section class="resultado">
+            <p>O quadrado é: <strong><span id="resultadoQuadrado">-</span></strong></p>
+            <p>O cubo é: <strong><span id="resultadoCubo">-</span></strong></p>
+        </section>
+    </main>
+</body>
+</html>

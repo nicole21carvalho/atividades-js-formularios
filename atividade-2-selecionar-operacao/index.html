@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 2 - Escolher Operação</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main class="container">
+        <h1>Calculadora com Seleção</h1>
+        <p class="descricao">
+            Digite um número e escolha se deseja calcular o quadrado ou o cubo.
+        </p>
+
+        <form id="numeroForm">
+            <label for="numero">Digite um número:</label>
+            <input type="number" id="numero" name="numero" step="any" required>
+
+            <label for="operacao">Escolha a operação:</label>
+            <select id="operacao" name="operacao" required>
+                <option value="">Selecione uma opção</option>
+                <option value="quadrado">Calcular quadrado</option>
+                <option value="cubo">Calcular cubo</option>
+            </select>
+
+            <button type="submit">Calcular</button>
+        </form>
+
+        <section class="resultado">
+            <p>Resultado: <strong><span id="resultado">-</span></strong></p>
+        </section>
+    </main>
+</body>
+</html>
