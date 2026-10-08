@@ -32,5 +32,5 @@ Exemplo: R$ 1.000,00 em 12x com 2% ao mês dá 12 parcelas de **R$ 94,56**, tota
 Para conferir o cálculo (precisa do [Node.js](https://nodejs.org/)):
 
 ```bash
-node --test atividade-3-calculo-parcelas/
+node --test atividade-3-calculo-parcelas/script.test.js
 ```
